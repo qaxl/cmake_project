@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+# Common directories
+[Bb]uild/
+[Bb]in/
+[Oo]ut/
+
+# IDEs
+.intellij/
+.vs/
+.vscode/

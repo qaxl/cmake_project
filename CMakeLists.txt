@@ -26,7 +26,8 @@ if (WITH_NATIVE_OPTIMIZATIONS)
     set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -march=native -mtune=native")
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -march=native -mtune=native")
 
-    message("!!!!!!!!!!!!!!!!!!!!!! IF THIS EXECUTABLE IS BEING DISTRIBUTED, PLEASE DISABLE NATIVE OPTIMIZATIONS (-DWITH_NATIVE_OPTIMIZATIONS=OFF) !!!!!!!!!!!!!!!!!!!!!!")
+    message("- Enabling native optimizations.")
+    message("- Please disable, when distributing!!")
 endif()
 
 if (WITH_MOLD_AS_LINKER)
